@@ -92,7 +92,7 @@ export default function AdminProduct() {
   return (
     <Box>
       <Stack style={{ textAlign:'start' }}>
-        <h1>產品列表</h1>
+        <h1>產品列表(改名)</h1>
       </Stack>
      
       <Stack sx={{ marginBottom:'1.2rem' }}>
