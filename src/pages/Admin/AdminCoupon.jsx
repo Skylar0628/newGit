@@ -89,7 +89,7 @@ export default function AdminCoupon() {
   return (
     <Box>
       <Stack style={{ textAlign:'start' }}>
-        <h1>優惠券列表</h1>
+        <h1>優惠券列表(修)</h1>
       </Stack>
       <Stack sx={{ marginBottom:'1.2rem' }}>
         <Button variant='contained' sx={{width:'100px'}} onClick={()=>handleOpen('add',{})}>
