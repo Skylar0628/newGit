@@ -19,7 +19,9 @@ import AdminDialog from '../../component/AdminDialog';
 import Pagination from '@mui/material/Pagination';
 
 
+
 import Swal from 'sweetalert2'
+import Message from '../../component/Message';
 
 export default function AdminProduct() {
   const [ type,setType ] = useState('add');
@@ -93,6 +95,7 @@ export default function AdminProduct() {
     <Box>
       <Stack style={{ textAlign:'start' }}>
         <h1>產品列表(改名)</h1>
+        <Message/>
       </Stack>
      
       <Stack sx={{ marginBottom:'1.2rem' }}>
